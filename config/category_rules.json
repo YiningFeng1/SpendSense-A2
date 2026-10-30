@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "id": "rent",
+      "category": "Rent",
+      "priority": 120,
+      "patterns": ["\\bRENT\\b", "PROPERTY MANAGEMENT"]
+    },
+    {
+      "id": "groceries",
+      "category": "Groceries",
+      "priority": 110,
+      "patterns": ["\\bCOLES\\b", "\\bWOOLWORTHS\\b", "\\bALDI\\b"]
+    },
+    {
+      "id": "transport",
+      "category": "Transport",
+      "priority": 100,
+      "patterns": ["\\bOPAL\\b", "TRANSPORT NSW", "\\bUBER\\b"]
+    },
+    {
+      "id": "dining",
+      "category": "Dining",
+      "priority": 90,
+      "patterns": ["CAFE", "COFFEE", "RESTAURANT", "MCDONALD"]
+    },
+    {
+      "id": "utilities",
+      "category": "Utilities",
+      "priority": 80,
+      "patterns": ["ENERGY", "ELECTRICITY", "INTERNET", "MOBILE"]
+    },
+    {
+      "id": "subscriptions",
+      "category": "Subscriptions",
+      "priority": 70,
+      "patterns": ["NETFLIX", "SPOTIFY", "ICLOUD"]
+    },
+    {
+      "id": "education",
+      "category": "Education",
+      "priority": 60,
+      "patterns": ["BOOK STORE", "BOOKSHOP", "UNIVERSITY", "COURSE"]
+    },
+    {
+      "id": "health",
+      "category": "Health",
+      "priority": 50,
+      "patterns": ["PHARMACY", "CHEMIST", "MEDICAL", "DENTAL"]
+    },
+    {
+      "id": "shopping",
+      "category": "Shopping",
+      "priority": 40,
+      "patterns": ["KMART", "TARGET", "AMAZON", "DEPARTMENT STORE"]
+    },
+    {
+      "id": "fees",
+      "category": "Bank fees",
+      "priority": 30,
+      "patterns": ["BANK FEE", "ACCOUNT FEE", "TRANSACTION FEE"]
+    }
+  ]
+}
